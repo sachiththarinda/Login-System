@@ -93,9 +93,8 @@ a:hover
     display: inline;
     font-family: Monospace,Lucida Console;
     border: none;
-    width: 190px;
+    width: 100%;
     background-color: lightgrey;
-  color: blue;
     font-size: 16px;
     line-height: 25px;
     padding: 10px 0;
@@ -105,7 +104,7 @@ a:hover
 
 }
 
-.navbar a {
+.nav a {
   float: left;
   font-size: 18px;
   color: white;
@@ -117,13 +116,13 @@ a:hover
 }
 
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.nav a:hover, .dropdown:hover .dropbtn {
   background-color: grey;
 }
 
 
 
-.navbar input[type=text] {
+.nav input[type=text] {
     float: right;
   padding: 6px;
   margin-top: 8px;
@@ -142,7 +141,7 @@ a:hover
     padding: 14px;
   }
   
-  .nav input[type=text] {
-    border: 1px solid black;  
+  .navbar input[type=text] {
+    border: 1px solid #ccc;  
   }
 
